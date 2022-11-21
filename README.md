@@ -16,3 +16,14 @@ Reading notes on _Kubernetes Operators_ by Jason Dobies adn Joshua Wood (O'Reill
 ## Chapter 3: Operators at the Kubernetes Interface
 - native kubernetes resources are also managed by a controller the same way an operator is
 - (28) An Operator is the application-specific combination of CRs and a custom controller \[...\] the Operator's _operand_ is what we call the application, service, or whatever resources an Operator manages
+
+## Chapter 4: The Operator Framework
+- (33) The Red Hat Operator Framework \[...\] makes building Operators easier with a software development kit that automates much of the repetitive implementation work.
+    - [Operator SDK](https://oreil.ly/IcfRf)
+- (33) Operator Lifecycle Manager (OLM) is an Operator that installs, manages, and upgrades other Operators
+    - [Operator Lifecycle Manager](https://oreil.ly/SDL7q) 
+    - ^^ broken link on page 36
+- (33) The Operator SKD builds atop the Kubernetes [controller-runtime](https://oreil.ly/AM0TP)
+- (35)The subsequent examples in this book use version series 0.11.x of operator-sdk
+    - most recent version is 1.25.2, this book may be more dated than I thought
+- (36) OLM defines a schema for Operator metadata, called the Cluster Service Version (CSV), for describing an Operator and its dependencies
