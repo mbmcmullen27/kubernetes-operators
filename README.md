@@ -27,3 +27,11 @@ Reading notes on _Kubernetes Operators_ by Jason Dobies adn Joshua Wood (O'Reill
 - (35)The subsequent examples in this book use version series 0.11.x of operator-sdk
     - most recent version is 1.25.2, this book may be more dated than I thought
 - (36) OLM defines a schema for Operator metadata, called the Cluster Service Version (CSV), for describing an Operator and its dependencies
+
+## Chapter 5: Sample Application: Visitors Site
+- (40) The Visitors Site is a traditional, three-tier application consisting of:
+    - A web frontend, implemented in React
+    - A REST API, implemented in Python using the Django framework
+    - A database, using MySQL
+- [app-manifests](https://github.com/kubernetes-operators-book/chapters/tree/master/ch05)
+    - offical mysql image does not support arm/v7 so we replaced it with `hypriot/rpi-mysql`
