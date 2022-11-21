@@ -12,3 +12,7 @@ Reading notes on _Kubernetes Operators_ by Jason Dobies adn Joshua Wood (O'Reill
 - Minikube is recommended for testing book examples
 - Examples can also be run on [OpenShift learning portal](https://learn.openshift.com)
     - [etcd operator lab](https://oreil.ly/j-xKh)
+
+## Chapter 3: Operators at the Kubernetes Interface
+- native kubernetes resources are also managed by a controller the same way an operator is
+- (28) An Operator is the application-specific combination of CRs and a custom controller \[...\] the Operator's _operand_ is what we call the application, service, or whatever resources an Operator manages
