@@ -34,3 +34,7 @@ Reading notes on _Kubernetes Operators_ by Jason Dobies adn Joshua Wood (O'Reill
     - A REST API, implemented in Python using the Django framework
     - A database, using MySQL
 - [app-manifests](https://github.com/kubernetes-operators-book/chapters/tree/master/ch05)
+    - use mcmull27 images for app arm64 builds
+    - mysql adds arm builds in version 8
+    - ui loads fine, fails to fetch backend api
+        - [python error message](./error.txt)
